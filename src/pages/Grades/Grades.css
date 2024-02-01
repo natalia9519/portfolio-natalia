@@ -1,0 +1,24 @@
+.main-grades{
+    min-height: 70vh;
+
+}
+.section-grades{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    justify-content: center;
+}
+.div-grade{
+    width: 20rem;
+    background-color: #25020F;
+    box-shadow: 5px 5px 5px #FF1168;
+    color:#ECECEC;
+    margin: 2rem;
+    text-align: center;
+}
+.h3-tittle{
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+.main-header{
+    height: 25vh;
+     
+    background-color: #25020F;
+    color:#ECECEC;
+    display: flex;
+    flex-direction: column;
+   
+}
+.section-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section-header p{
+    font-size: 5rem;
+    margin: 0;
+    text-decoration: none;
+    color:#ECECEC;
+}
+.section-header p:hover{
+    color:#FF1168; 
+}
+.nav-header {
+    justify-content: center;
+    display: flex;
+}
+
+.nav-header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color:#ECECEC;
+}
+.nav-header ul li{
+    padding-left: 2rem;
+}
+.a-nav{
+     color:#ECECEC;   
+}
+.a-nav:hover{
+    color:#FF1168;   
+}
+

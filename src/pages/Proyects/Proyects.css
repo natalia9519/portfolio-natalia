@@ -1,0 +1,13 @@
+.main-proyects{
+    min-height: 70vh;
+
+}
+.section-proyects{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    justify-content: center;
+}

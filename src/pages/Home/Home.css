@@ -1,0 +1,91 @@
+.main-home{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-home{
+    border-radius: 500px;
+    height: 40vh;
+    width: 20vw;
+}
+.p-home{
+    text-align: justify;
+    width: 50vw;
+}
+.bubble-image{
+    width: 2rem;
+    height: 2rem;
+
+}
+
+
+.bubble {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #81cbf958;
+    animation: float 45s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bubble-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+  /* ESTO HACE LAS COORDENADAS DONDE SE VA A MOVER LAS BURBUJAS SI ME TIERA UNA POR BURBUJAS HABRIA BURBUJAS MOVIENDOSE POR TODA SPARTES */
+  @keyframes float {
+    0% {
+      transform: translate(-600px, -500px);
+    }
+    10% {
+      transform: translate(-500px, 70px);
+    }
+    20% {
+      transform: translate(-400px, -400px);
+    }
+    30% {
+      transform: translate(-200px, -100px);
+    }
+    40% {
+      transform: translate(-150px, 80px);
+    }
+    50% {
+      transform: translate(-70px, -50px);
+    }
+    60% {
+      transform: translate(0, 0);
+    }
+   70% {
+      transform: translate(20px, 300px);
+    }
+    80% {
+      transform: translate(150px, -100px);
+    }
+    90% {
+      transform: translate(230px, -100px);
+    }
+    100% {
+      transform: translate(300px, 200px);
+    }
+  }
+  .bubble.hovered {
+    /* Agregar estilos de movimiento al pasar el ratón por encima */
+    animation: shake 0.5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-15px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
