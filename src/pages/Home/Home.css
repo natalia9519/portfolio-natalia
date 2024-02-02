@@ -1,96 +1,164 @@
-.main-home{
-    min-height: 70vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url('../../assets/fondopages.png');
+.main-home {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../../assets/fondopages.png');
 }
-.image-home{
-    border-radius: 500px;
-    height: 40vh;
-    width: 20vw;
+
+.main-home-alt {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../../assets/fondo.png');
 }
-.p-home{
-    text-align: justify;
-    width: 50vw;
-    color: #ECECEC;
-    background-color: #25020f;
-    padding: 2rem;
-    border-radius: 30px;
+
+.image-home {
+  border-radius: 500px;
+  height: 40vh;
+  width: 20vw;
 }
-.bubble-image{
-    width: 2rem;
-    height: 2rem;
+
+.p-home {
+  text-align: justify;
+  width: 50vw;
+  color: #ECECEC;
+  background-color: #25020f;
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.main-home-alt .p-home {
+  text-align: justify;
+  width: 50vw;
+  color: #ECECEC;
+  background-color: #FF1168;
+  padding: 2rem;
+  border-radius: 30px;
+  font-family: Verdana;
+}
+
+.bubble-image {
+  width: 2rem;
+  height: 2rem;
 
 }
 
 
 .bubble {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #81cbf958;
-    animation: float 45s infinite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #81cbf958;
+  animation: float 45s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* COORDENADAS BURBUJAS */
+@keyframes float {
+  0% {
+    transform: translate(-500px, -500px);
   }
 
-  .bubble-container {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+  10% {
+    transform: translate(-400px, 70px);
   }
 
-  
-  /* ESTO HACE LAS COORDENADAS DONDE SE VA A MOVER LAS BURBUJAS SI ME TIERA UNA POR BURBUJAS HABRIA BURBUJAS MOVIENDOSE POR TODA SPARTES */
-  @keyframes float {
-    0% {
-      transform: translate(-500px, -500px);
-    }
-    10% {
-      transform: translate(-400px, 70px);
-    }
-    20% {
-      transform: translate(-300px, -400px);
-    }
-    30% {
-      transform: translate(-100px, -100px);
-    }
-    40% {
-      transform: translate(-50px, 80px);
-    }
-    50% {
-      transform: translate(30px, -50px);
-    }
-    60% {
-      transform: translate(100px, 0);
-    }
-   70% {
-      transform: translate(200px, 300px);
-    }
-    80% {
-      transform: translate(250px, -100px);
-    }
-    90% {
-      transform: translate(270px, -100px);
-    }
-    100% {
-      transform: translate(300px, 200px);
-    }
+  20% {
+    transform: translate(-300px, -400px);
   }
-  .bubble.hovered {
-    /* Agregar estilos de movimiento al pasar el ratón por encima */
-    animation: shake 0.5s;
+
+  30% {
+    transform: translate(-100px, -100px);
   }
-  
-  @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-15px); }
-    50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
+
+  40% {
+    transform: translate(-50px, 80px);
   }
+
+  50% {
+    transform: translate(30px, -50px);
+  }
+
+  60% {
+    transform: translate(100px, 0);
+  }
+
+  70% {
+    transform: translate(200px, 300px);
+  }
+
+  80% {
+    transform: translate(250px, -100px);
+  }
+
+  90% {
+    transform: translate(270px, -100px);
+  }
+
+  100% {
+    transform: translate(300px, 200px);
+  }
+}
+
+.bubble.hovered {
+  /* Agregar estilos de movimiento al pasar el ratón por encima */
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-15px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width:700px) {
+  .bubble {
+    display: none;
+  }
+
+  .main-home {
+    flex-direction: column;
+  }
+
+  .main-home-alt {
+    flex-direction: column;
+  }
+
+  .image-home {
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+  }
+
+}

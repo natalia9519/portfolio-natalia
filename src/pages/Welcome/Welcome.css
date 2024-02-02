@@ -23,3 +23,28 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width:1205px) {
+    .text-welcome{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        font-size: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-welcome{
+        min-height: 80vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px) {
+    .text-welcome{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        font-size: 5rem;
+    }
+}

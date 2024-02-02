@@ -7,7 +7,7 @@ export function Books(){
     return(
 <main className="main-book">
     <h1 className="title-book">Libros que escribo</h1>
-    <p>esta es mi pagina ContactForm</p>
+    <h4>PAGINA EN CONSTRUCCIÓN</h4>
 </main>
 
 

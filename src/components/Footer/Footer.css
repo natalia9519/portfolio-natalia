@@ -17,4 +17,20 @@
   
 }
 
+@media screen and (max-width: 768px) {
+.main-footer{
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+}
+    .main-footer ul {
+    display: flex;
+    flex-direction: column;
+
+}
+.main-footer ul li{
+    margin: 5px;
+  
+}
+}
 
