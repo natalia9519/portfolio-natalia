@@ -18,7 +18,7 @@ export function Grades(){
    return(
       <main className="main-grades">
 
-<h1>Titulaciones obtenidas</h1>
+<h1 className="title-grades">Titulaciones obtenidas</h1>
 <section>
     {/* buscador y filtrado */}
 </section>
@@ -28,7 +28,7 @@ export function Grades(){
           
             {grades.map(grades => (
               <div key={grades.id} className="div-grade">
-                <h3 className="h3-tittle">{grades.tittle}</h3>
+                <h3 className="h3-title">{grades.title}</h3>
                 <p className="p-date">{grades.date}</p>
                 <p className="p-institute">Institución: {grades.institute}</p>
                 <p className="p-category">{grades.categories}</p>

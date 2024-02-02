@@ -16,7 +16,7 @@ export function Footer(){
                 <li><a href='https://www.linkedin.com/in/natalia-de-bustos-garc%C3%ADa-5ba965298/' className='a-nav'>
                 LinkedlIn
                     </a></li>
-                <li><Link to='./ContactForm' className='a-nav'>
+                <li><Link to='./contacto' className='a-nav'>
                 Contactame
                     </Link></li>
 

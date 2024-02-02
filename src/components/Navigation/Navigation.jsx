@@ -7,7 +7,7 @@ export function Navigation() {
 
         <main className='main-header'>
             <section className='section-header'>
-            <Link to='./' className='a-nav'><p>Natalia de Bustos García</p></Link>
+            <Link to='./home' className='a-nav'><p>Natalia de Bustos García</p></Link>
                 <div>
 
                 </div>

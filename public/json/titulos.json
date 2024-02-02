@@ -2,91 +2,91 @@
     "grades" : [
         {
             "id": 1,
-            "tittle": "Grado Magisterio de Educación Infantil",
+            "title": "Grado Magisterio de Educación Infantil",
             "date": 2019,
             "institute": "Universidad Francisco de Vitoria",
             "categories": ["infancia ", "carrera"]
         },
         {
             "id": 2,
-            "tittle": "FP Educación Infantil",
+            "title": "FP Educación Infantil",
             "date": 2016,
             "institute": "Universidad Francisco de Vitoria",
             "categories":["infancia ", "grado superior"]
         },
         {
             "id": 3,
-            "tittle": "Monitor de ocio y tiempo libre",
+            "title": "Monitor de ocio y tiempo libre",
             "date": 2016,
             "institute": "Escuela Rastros",
             "categories":["infancia ", "otros"]
         },
         {
             "id": 4,
-            "tittle": "Bachiller de humanidades",
+            "title": "Bachiller de humanidades",
             "date": 2014,
             "institute": "IES Puig Adam",
             "categories": "otro "
         },
         {
             "id": 5,
-            "tittle": "Curso IFCI3004 programador de aplicaciones orientadas a objetos del sepe",
+            "title": "Curso IFCI3004 programador de aplicaciones orientadas a objetos del sepe",
             "date": 2014,
             "institute": "Sepe",
             "categories":["informatica ", "otro"]
         },
         {
             "id": 6,
-            "tittle": "Título de Formación para liderazgo humano y profesional",
+            "title": "Título de Formación para liderazgo humano y profesional",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories":["infancia ", "seminario"]
         },
         {
             "id": 7,
-            "tittle": "Seminario de Habilidades profesionales",
+            "title": "Seminario de Habilidades profesionales",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories": "seminario "
         },
         {
             "id": 8,
-            "tittle": "Seminario de Emoción, arte y creatividad",
+            "title": "Seminario de Emoción, arte y creatividad",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories":["infancia ", "seminario"]
         },
         {
             "id": 9,
-            "tittle": "Seminario de Nuevas Tecnologías para infantil",
+            "title": "Seminario de Nuevas Tecnologías para infantil",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories":["infancia ", "seminario"]
         },
         {
             "id": 10,
-            "tittle": "Boothcamp Desarrollo Paginas Web FullStack +Ciberseguridad con  F5",
+            "title": "Boothcamp Desarrollo Paginas Web FullStack +Ciberseguridad con  F5",
             "date": 2024,
             "institute": "Fundación Tomillo y Formación F5",
             "categories":["informatica ", "boothcamp"]
         },
         {
             "id": 11,
-            "tittle": "Seminario de Habilidades comunicativas",
+            "title": "Seminario de Habilidades comunicativas",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories": "seminario "
         },
         {
             "id": 12,
-            "tittle": "Seminario Música en la infancia",
+            "title": "Seminario Música en la infancia",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories":["infancia ", "seminario"]
         },
         {
             "id": 13,
-            "tittle": "Seminario de Psicomotricidad en la educación",
+            "title": "Seminario de Psicomotricidad en la educación",
             "date": 2015,
             "institute": "Universidad Francisco de Vitoria",
             "categories":["infancia ", "seminario"]

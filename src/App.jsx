@@ -6,6 +6,8 @@ import { Experience } from './pages/Experience/Experience.jsx';
 import { Grades } from './pages/Grades/Grades.jsx';
 import { Proyects } from './pages/Proyects/Proyects.jsx';
 import { Books } from './pages/Book/Books.jsx'
+import { ContactForm } from './pages/Contact/ContactForm.jsx'
+import { Welcome } from './pages/Welcome/Welcome.jsx'
 
 function App() {
   return (
@@ -13,11 +15,13 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<Welcome />} />
+          <Route path="home" element={<Home />} />
           <Route path="experiencia" element={<Experience />} />
           <Route path="titulos" element={<Grades />} />
           <Route path="proyectos" element={<Proyects />} />
           <Route path="books" element={<Books />} /> 
+          <Route path="contacto" element={<ContactForm />} />
           
         </Routes>
         

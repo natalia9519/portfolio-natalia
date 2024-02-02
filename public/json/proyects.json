@@ -3,7 +3,7 @@
         {
             "id": 1,
             "image":"#",
-            "tittle": "e-commerce-frontend",
+            "title": "e-commerce-frontend",
             "date": 2023,
             "link": "https://github.com/natalia9519/e-commerce-frontend",
             "categories": ["HTML", "CSS", "JavaScript"]
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "image":"#",
-            "tittle": "langpage2",
+            "title": "langpage2",
             "date": 2023,
             "link": "https://github.com/natalia9519/langpage2",
             "categories": ["HTML", "CSS", "JavaScript"]
@@ -19,7 +19,7 @@
         {
             "id": 3,
             "image":"#",
-            "tittle": "Prueba de Api Harry Potter",
+            "title": "Prueba de Api Harry Potter",
             "date": 2023,
             "link": "https://github.com/natalia9519/prueba-api",
             "categories": ["HTML", "CSS", "JavaScript", "Api"]
@@ -27,7 +27,7 @@
         {
             "id": 4,
             "image":"#",
-            "tittle": "Felicitación sencilla de navidad",
+            "title": "Felicitación sencilla de navidad",
             "date": 2023,
             "link": "https://github.com/natalia9519/amigo",
             "categories": ["HTML", "CSS", "JavaScript"]
@@ -35,7 +35,7 @@
         {
             "id": 5,
             "image":"#",
-            "tittle": "Proyecto Golden-hand",
+            "title": "Proyecto Golden-hand",
             "date": 2023,
             "link": "https://github.com/natalia9519/golden-hand",
             "categories": ["HTML", "CSS", "JavaScript", "Api"]
@@ -43,7 +43,7 @@
         {
             "id": 6,
             "image":"#",
-            "tittle": "Copia de un proyecto siguiendo un video de Pokeapi",
+            "title": "Copia de un proyecto siguiendo un video de Pokeapi",
             "date": 2023,
             "link": "https://github.com/natalia9519/pokedex-react",
             "categories": ["HTML", "CSS", "JavaScript", "Api", "React"]
@@ -51,7 +51,7 @@
         {
             "id": 7,
             "image":"#",
-            "tittle": "Proyecto con React Happyphone",
+            "title": "Proyecto con React Happyphone",
             "date": 2023,
             "link": "https://github.com/natalia9519/proyecto7-HappyPhone",
             "categories": ["HTML", "CSS", "JavaScript", "Api", "React"]
@@ -59,7 +59,7 @@
         {
             "id": 8,
             "image":"#",
-            "tittle": "Este porfolio",
+            "title": "Este porfolio",
             "date": 2023,
             "link": "https://github.com/natalia9519/portfolio-natalia",
             "categories": ["HTML", "CSS", "JavaScript", "Api", "React", "Vite"]

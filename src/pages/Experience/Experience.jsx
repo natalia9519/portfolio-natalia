@@ -18,7 +18,7 @@ export function Experience(){
     return(
         <main className="main-experience">
 
-        <h1>Experiencia profesional</h1>
+        <h1 className="title-experience">Experiencia profesional</h1>
         <section>
             {/* buscador y filtrado */}
         </section>
@@ -28,7 +28,7 @@ export function Experience(){
                   
                     {experience.map(experience => (
                       <div key={experience.id} className="div-grade">
-                        <h3 className="h3-tittle">{experience.tittle}</h3>
+                        <h3 className="h3-title">{experience.title}</h3>
                         <p className="p-date">{experience.date}</p>
                         <p className="p-company">Compañia: {experience.company}</p>
                         <p className="p-description">{experience.description}</p>

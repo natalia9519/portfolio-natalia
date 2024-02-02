@@ -1,13 +1,46 @@
 .main-proyects{
     min-height: 70vh;
+    background-image: url('../../assets/fondopages.png');
+    background-size: cover;
+}
+.title-proyects{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding: 2rem;
+    color:#FF1168;
+    text-shadow: 4px 4px 4px #25020F;
+}
+.section-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.filter-bar{
 
+    color: #ECECEC;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.btn-filter-bar{
+      width: 10rem;
+    background-color: #9E1E4C;  
 }
 .section-proyects{
     display: flex;
     flex-direction: row;
-    margin: 2rem;
+
     align-items: center;
     flex-wrap: wrap;
     max-width: 90vw;
     justify-content: center;
 }
+.solapa {
+    display: flex;
+    flex-direction: column;
+    background-color: #9E1E4C;
+height: 10rem;
+z-index: 200;
+  }

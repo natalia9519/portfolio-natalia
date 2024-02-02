@@ -1,0 +1,25 @@
+.main-welcome{
+    min-height: 60vh;
+    background:#25020F;
+    
+}
+.section-welcome {
+	background:#25020F;
+	display: flex;
+	align-items: center;
+}
+
+.text-welcome {
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 170px;
+    font-weight: bold;
+    background-image: url(/src/assets/fondo.png);
+    background-size: cover;
+    background-position-y: 612px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

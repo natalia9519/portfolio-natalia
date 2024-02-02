@@ -1,4 +1,38 @@
 .main-contact{
     min-height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+background-image: url('../../assets/fondopages.png');
+}
 
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.section-form{
+    box-shadow: 5px 5px 5px #8F8F8F;
+    border: 5px solid #25020F;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FF1168 ;
+}
+.button-contact{
+    width: 10rem;
+    background-color: #9E1E4C;
+    color: #ECECEC;
+    
+}
+.button-contact:hover{
+    background-color: #FF1168;
+    color:#25020F;
 }
