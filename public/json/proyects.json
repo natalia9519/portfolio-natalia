@@ -63,7 +63,31 @@
             "date": 2023,
             "link": "https://github.com/natalia9519/portfolio-natalia",
             "categories": ["HTML", "CSS", "JavaScript", "Api", "React", "Vite"]
-        } 
+        },
+        {
+            "id": 9,
+            "image":"#",
+            "title": "Blog con back crud",
+            "date": 2024,
+            "link": "https://github.com/natalia9519/crud-blog.git",
+            "categories": ["HTML", "CSS", "JavaScript", "JSON", "React", "Vite", "Back"]
+        },
+        {
+            "id": 10,
+            "image":"#",
+            "title": "We are junior",
+            "date": 2024,
+            "link": "https://github.com/natalia9519/werjuniors.git",
+            "categories": ["HTML", "CSS", "JavaScript", "React", "Vite", "Back", "Test"]
+        },
+        {
+            "id": 11,
+            "image":"#",
+            "title": "Salas-f5",
+            "date": 2024,
+            "link": "https://github.com/natalia9519/salas-f5.git",
+            "categories": ["HTML", "CSS", "JavaScript", "React", "Vite", "Back", "Test"]
+        }
 
 ]
 }
