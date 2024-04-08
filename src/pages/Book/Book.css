@@ -2,6 +2,10 @@
     min-height: 70vh;
     background-image: url('../../assets/fondopages.png');
     background-size: cover;
+    display:flex;
+    flex-dirrection:column;
+    justify-content: center;
+    aling-item:center;
 }
 .title-book{
     display: flex;
