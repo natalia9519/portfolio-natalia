@@ -2,7 +2,7 @@
     "proyects" : [
         {
             "id": 1,
-            "image":"#",
+            "image":"/public/images/loto.png",
             "title": "e-commerce-frontend",
             "date": 2023,
             "link": "https://github.com/natalia9519/e-commerce-frontend",
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "image":"#",
+            "image":"/public/images/landgpage2.png",
             "title": "langpage2",
             "date": 2023,
             "link": "https://github.com/natalia9519/langpage2",
@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "image":"#",
+            "image":"/public/images/prueba-api.png",
             "title": "Prueba de Api Harry Potter",
             "date": 2023,
             "link": "https://github.com/natalia9519/prueba-api",
@@ -26,7 +26,7 @@
         },
         {
             "id": 4,
-            "image":"#",
+            "image":"/public/images/amigo.png",
             "title": "Felicitación sencilla de navidad",
             "date": 2023,
             "link": "https://github.com/natalia9519/amigo",
@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "image":"#",
+            "image":"/public/images/golden.png",
             "title": "Proyecto Golden-hand",
             "date": 2023,
             "link": "https://github.com/natalia9519/golden-hand",
@@ -42,7 +42,7 @@
         },
         {
             "id": 6,
-            "image":"#",
+            "image":"/public/images/pokedex.png",
             "title": "Copia de un proyecto siguiendo un video de Pokeapi",
             "date": 2023,
             "link": "https://github.com/natalia9519/pokedex-react",
@@ -50,7 +50,7 @@
         },
         {
             "id": 7,
-            "image":"#",
+            "image":"/public/images/happy-phone.png",
             "title": "Proyecto con React Happyphone",
             "date": 2023,
             "link": "https://github.com/natalia9519/proyecto7-HappyPhone",
@@ -58,7 +58,7 @@
         },
         {
             "id": 8,
-            "image":"#",
+            "image":"/public/images/portfolio.png",
             "title": "Este porfolio",
             "date": 2023,
             "link": "https://github.com/natalia9519/portfolio-natalia",
@@ -66,7 +66,7 @@
         },
         {
             "id": 9,
-            "image":"#",
+            "image":"/public/images/crud-blog.png",
             "title": "Blog con back crud",
             "date": 2024,
             "link": "https://github.com/natalia9519/crud-blog.git",
@@ -74,7 +74,7 @@
         },
         {
             "id": 10,
-            "image":"#",
+            "image":"/public/images/wearejunior.png",
             "title": "We are junior",
             "date": 2024,
             "link": "https://github.com/natalia9519/werjuniors.git",
@@ -82,7 +82,7 @@
         },
         {
             "id": 11,
-            "image":"#",
+            "image":"/public/images/salas-f5.png",
             "title": "Salas-f5",
             "date": 2024,
             "link": "https://github.com/natalia9519/salas-f5.git",

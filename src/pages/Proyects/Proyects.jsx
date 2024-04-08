@@ -3,6 +3,7 @@ import './Proyects.css'
 import SearchBar from '../../components/SearchBar/SearchBar.jsx';
 import { Link } from "react-router-dom";
 
+
 export function Proyects(){
     const [proyects, setProyects] = useState([]);
     const [proyectsFiltrados, setProyectsFiltrados] = useState([]);
@@ -77,6 +78,7 @@ useEffect(() => {
                       proyectsFiltrados.map((proyecto) => (
                         <div key={proyecto.id} className="div-grade">
                           <h3 className="h3-title">{proyecto.title}</h3>
+                          <img src={proyecto.image} alt="Imagen del proyecto" style={{width:'80%'}} />
                           <p className="p-date">{proyecto.date}</p>
                           <p className="p-link">Link del repositorio: <Link to={proyects.link}>Pincha aquí</Link></p>
                         </div>
@@ -85,6 +87,7 @@ useEffect(() => {
                     proyects.map(proyects => (
                       <div key={proyects.id} className="div-grade">
                         <h3 className="h3-title">{proyects.title}</h3>
+                        <img src={proyects.image} alt="Imagen del proyecto" style={{width:'80%'}} />
                         <p className="p-date">{proyects.date}</p>
                         <p className="p-link">Link del repositorio:  <Link to={proyects.link}>Pincha aquí</Link> </p>
                       </div>
